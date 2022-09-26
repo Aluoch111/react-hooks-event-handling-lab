@@ -2,14 +2,13 @@
 import React from "react";
 
 function Keypad (){
-    const eventHandler = (event) => {
+    const event = (e) => {
         console.log("Entering password...");
     };
 
     return (
         <div>
-            {" "}
-			<input type="password" onChange={eventHandler} />
+			<input type="password" onChange={event} />
         </div>
     );
 }

@@ -2,7 +2,8 @@
 import React from "react";
 
 function EyesOnMe() {
-	const blur = (event) => {
+
+	const blur = (e) => {
 		console.log("Hey! Eyes on me!");
 	};
 	const focus = () => {
